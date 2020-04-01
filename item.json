@@ -1,0 +1,35 @@
+{
+  "mode": "SYNCHRONOUS",
+  "item": {
+    "version": "",
+    "itemType": "CONTENT_ITEM",
+    "acl": {
+      "readers": [
+        {
+          "gsuitePrincipal": {
+            "gsuiteDomain": "true"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "title": "",
+      "objectType": "",
+      "contentLanguage": "it",
+      "sourceRepositoryUrl": ""
+    },
+    "queue": "default",
+    "structuredData": {
+      "object": {
+        "properties": [
+          {
+            "name": "category",
+            "textValues": {
+              "values": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

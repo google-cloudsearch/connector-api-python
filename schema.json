@@ -1,0 +1,40 @@
+{
+  "objectDefinitions": [
+    {
+      "name": "document",
+      "propertyDefinitions": [
+        {
+          "name": "Title",
+          "isReturnable": true,
+          "textPropertyOptions": {
+            "retrievalImportance": {
+              "importance": "HIGHEST"
+            },
+            "operatorOptions": {
+              "operatorName": "title"
+            }
+          },
+          "displayOptions": {
+            "displayLabel": "Title"
+          }
+        },
+        {
+          "name": "author",
+          "isReturnable": true,
+          "isFacetable": true,
+          "textPropertyOptions": {
+            "retrievalImportance": {
+              "importance": "NONE"
+            },
+            "operatorOptions": {
+              "operatorName": "author"
+            }
+          },
+          "displayOptions": {
+            "displayLabel": "Author"
+          }
+        }
+      ]
+    }
+  ]
+}
